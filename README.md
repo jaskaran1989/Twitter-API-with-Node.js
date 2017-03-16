@@ -34,7 +34,7 @@ This function randonly favourited a tweet for you, how this works is in this pro
 
 # Tweeting
 This is very simple  code which uses 'status/update' function to tweet, this is POST restAPI call.
-Note: this function run only one after that you have to change tweet text as it looks for duplication.
+> Note: this function run only one after that you have to change tweet text as it looks for duplication.
 
 <img src="https://github.com/jaskaran1989/Twitter-API-with-Node.js/blob/master/single.png" />
 
