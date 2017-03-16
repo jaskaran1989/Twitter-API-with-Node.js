@@ -7,20 +7,30 @@ Examples of how to use twitter API with Node.js. Examples include retweeting, tw
 * Twitter API
 > Docs: https://dev.twitter.com/docs
 * Node.js
+Need to perform some of the following commands before running the project
+```
+npm install 
+npm install twit
+```
 
+# This code basically shows 4 functions form Twitter apI
 
-# This code basically shows 4 functions form Twitter api
-* search/tweets
-* statuses/retweet/:id
+* search/tweets (# GET RestAPI call)
+* statuses/retweet/:id (# POST RestAPI call)
+
+This function find a tweet  through 'search/tweet' function and then extract tweet's id and then pass to id in 'statuses/retweet/:id'
+function which then retwets the tweet, this is POST restAPI call.
 
  <img src="https://github.com/jaskaran1989/Twitter-API-with-Node.js/blob/master/retweet.png" />
  
-* favorites/create
+* favorites/create (# POST RestAPI call)
 
+This function randonly favourited a tweet for you, how this works is in this program there is a function creates a random id which then passs to the function url
 <img src="https://github.com/jaskaran1989/Twitter-API-with-Node.js/blob/master/favrouite.png" />
 
-* statuses/update
+* statuses/update (# POST RestAPI call)
 
+This is very simple  code which uses 'status/update' function to tweet, this is POST restAPI call.
 <img src="https://github.com/jaskaran1989/Twitter-API-with-Node.js/blob/master/single.png" />
 
 
