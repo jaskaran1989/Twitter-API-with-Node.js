@@ -38,3 +38,7 @@ This is very simple  code which uses 'status/update' function to tweet, this is 
 <img src="https://github.com/jaskaran1989/Twitter-API-with-Node.js/blob/master/single.png" />
 
 
+
+# Helpful Links
+* https://hackernoon.com
+* http://techknights.org/workshops/nodejs-twitterbot/
