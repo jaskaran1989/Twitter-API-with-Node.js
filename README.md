@@ -21,20 +21,19 @@ npm install twit
 * statuses/update (POST RestAPI call)
 ```
 # Retweeting
-This function find a tweet  through 'search/tweet' function and then extract tweet's id and then pass to id in 'statuses/retweet/:id'
-function which then retwets the tweet, this is POST restAPI call.
+This function find a tweet  through 'search/tweet' function and then extract tweet's id and then pass that  id in 'statuses/retweet/:id'
+function which then retweets the tweet.
 
  <img src="https://github.com/jaskaran1989/Twitter-API-with-Node.js/blob/master/retweet.png" />
  
-
 # Favouriting a tweet
-This function randonly favourited a tweet for you, how this works is in this program there is a function creates a random id which then passs to the function url
+This function randonly favourited a tweet for you, how this works is in index.js there is a function creates a random id which then passs to the Twitter API function.
 
 <img src="https://github.com/jaskaran1989/Twitter-API-with-Node.js/blob/master/favrouite.png" />
 
 # Tweeting
 This is very simple  code which uses 'status/update' function to tweet, this is POST restAPI call.
-> Note: this function run only one after that you have to change tweet text as it looks for duplication.
+> Note: this function run only once after that you have to change tweet text otherwise it gave duplication error.
 
 <img src="https://github.com/jaskaran1989/Twitter-API-with-Node.js/blob/master/single.png" />
 
